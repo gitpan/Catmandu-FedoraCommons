@@ -1,0 +1,148 @@
+{
+   "abstract" : "Low level Catmandu interface to the Fedora Commons REST API",
+   "author" : [
+      "Patrick Hochstenbach <patrick.hochstenbach@ugent.be>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Catmandu-FedoraCommons",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Software::License" : "0",
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.4"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Validate::Type" : "1.004000",
+            "Data::Validate::URI" : "0.06",
+            "HTTP::Request::Common" : "6.03",
+            "RDF::Trine" : "1.003",
+            "XML::LibXML" : "2.0014",
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "Catmandu::FedoraCommons" : {
+         "file" : "lib/Catmandu/FedoraCommons.pm",
+         "version" : "0.1"
+      },
+      "Catmandu::FedoraCommons::Model::addRelationship" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/addRelationship.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::datastreamHistory" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamHistory.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::datastreamProfile" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamProfile.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::export" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/export.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::findObjects" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/findObjects.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::getDatastreamDissemination" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/getDatastreamDissemination.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::getObjectHistory" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectHistory.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::getObjectProfile" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectProfile.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::getRelationships" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/getRelationships.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::ingest" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/ingest.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::listDatastreams" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/listDatastreams.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::listMethods" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/listMethods.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::modifyObject" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/modifyObject.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::pidList" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/pidList.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::purgeDatastream" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeDatastream.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::purgeObject" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeObject.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::purgeRelationship" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeRelationship.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::upload" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/upload.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Model::validate" : {
+         "file" : "lib/Catmandu/FedoraCommons/Model/validate.pm",
+         "version" : 0
+      },
+      "Catmandu::FedoraCommons::Response" : {
+         "file" : "lib/Catmandu/FedoraCommons/Response.pm",
+         "version" : 0
+      },
+      "Catmandu::Store::FedoraCommons" : {
+         "file" : "lib/Catmandu/Store/FedoraCommons.pm",
+         "version" : 0
+      },
+      "Catmandu::Store::FedoraCommons::Bag" : {
+         "file" : "lib/Catmandu/Store/FedoraCommons.pm",
+         "version" : 0
+      },
+      "Catmandu::Store::FedoraCommons::DC" : {
+         "file" : "lib/Catmandu/Store/FedoraCommons/DC.pm",
+         "version" : 0
+      },
+      "Catmandu::Store::FedoraCommons::FOXML" : {
+         "file" : "lib/Catmandu/Store/FedoraCommons/FOXML.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.1"
+}
