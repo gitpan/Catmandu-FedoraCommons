@@ -6,6 +6,7 @@ WriteMakefile
   'NAME' => 'Catmandu::FedoraCommons',
   'VERSION_FROM' => 'lib/Catmandu/FedoraCommons.pm',
   'PREREQ_PM' => {
+                   'Catmandu' => '0.05',
                    'Data::Validate::Type' => '1.004000',
                    'Data::Validate::URI' => '0.06',
                    'HTTP::Request::Common' => '6.03',

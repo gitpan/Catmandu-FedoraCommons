@@ -17,7 +17,7 @@ name: Catmandu-FedoraCommons
 provides:
   Catmandu::FedoraCommons:
     file: lib/Catmandu/FedoraCommons.pm
-    version: 0.1
+    version: 0.2
   Catmandu::FedoraCommons::Model::addRelationship:
     file: lib/Catmandu/FedoraCommons/Model/addRelationship.pm
     version: 0
@@ -91,6 +91,7 @@ provides:
     file: lib/Catmandu/Store/FedoraCommons/FOXML.pm
     version: 0
 requires:
+  Catmandu: 0.05
   Data::Validate::Type: 1.004000
   Data::Validate::URI: 0.06
   HTTP::Request::Common: 6.03
@@ -99,4 +100,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.1
+version: 0.2
