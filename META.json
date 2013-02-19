@@ -40,7 +40,7 @@
    "provides" : {
       "Catmandu::FedoraCommons" : {
          "file" : "lib/Catmandu/FedoraCommons.pm",
-         "version" : "0.2"
+         "version" : "0.21"
       },
       "Catmandu::FedoraCommons::Model::addRelationship" : {
          "file" : "lib/Catmandu/FedoraCommons/Model/addRelationship.pm",
@@ -145,5 +145,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.2"
+   "version" : "0.21"
 }
