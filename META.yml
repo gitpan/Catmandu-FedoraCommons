@@ -17,7 +17,7 @@ name: Catmandu-FedoraCommons
 provides:
   Catmandu::FedoraCommons:
     file: lib/Catmandu/FedoraCommons.pm
-    version: 0.23
+    version: 0.24
   Catmandu::FedoraCommons::Model::addRelationship:
     file: lib/Catmandu/FedoraCommons/Model/addRelationship.pm
   Catmandu::FedoraCommons::Model::datastreamHistory:
@@ -76,4 +76,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.23
+version: 0.24
