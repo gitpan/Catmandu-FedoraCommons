@@ -4,7 +4,7 @@
       "Patrick Hochstenbach <patrick.hochstenbach@ugent.be>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.4"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -40,103 +40,79 @@
    "provides" : {
       "Catmandu::FedoraCommons" : {
          "file" : "lib/Catmandu/FedoraCommons.pm",
-         "version" : "0.21"
+         "version" : "0.22"
       },
       "Catmandu::FedoraCommons::Model::addRelationship" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/addRelationship.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/addRelationship.pm"
       },
       "Catmandu::FedoraCommons::Model::datastreamHistory" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamHistory.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamHistory.pm"
       },
       "Catmandu::FedoraCommons::Model::datastreamProfile" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamProfile.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/datastreamProfile.pm"
       },
       "Catmandu::FedoraCommons::Model::export" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/export.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/export.pm"
       },
       "Catmandu::FedoraCommons::Model::findObjects" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/findObjects.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/findObjects.pm"
       },
       "Catmandu::FedoraCommons::Model::getDatastreamDissemination" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/getDatastreamDissemination.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/getDatastreamDissemination.pm"
       },
       "Catmandu::FedoraCommons::Model::getObjectHistory" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectHistory.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectHistory.pm"
       },
       "Catmandu::FedoraCommons::Model::getObjectProfile" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectProfile.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/getObjectProfile.pm"
       },
       "Catmandu::FedoraCommons::Model::getRelationships" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/getRelationships.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/getRelationships.pm"
       },
       "Catmandu::FedoraCommons::Model::ingest" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/ingest.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/ingest.pm"
       },
       "Catmandu::FedoraCommons::Model::listDatastreams" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/listDatastreams.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/listDatastreams.pm"
       },
       "Catmandu::FedoraCommons::Model::listMethods" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/listMethods.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/listMethods.pm"
       },
       "Catmandu::FedoraCommons::Model::modifyObject" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/modifyObject.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/modifyObject.pm"
       },
       "Catmandu::FedoraCommons::Model::pidList" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/pidList.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/pidList.pm"
       },
       "Catmandu::FedoraCommons::Model::purgeDatastream" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/purgeDatastream.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeDatastream.pm"
       },
       "Catmandu::FedoraCommons::Model::purgeObject" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/purgeObject.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeObject.pm"
       },
       "Catmandu::FedoraCommons::Model::purgeRelationship" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/purgeRelationship.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/purgeRelationship.pm"
       },
       "Catmandu::FedoraCommons::Model::upload" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/upload.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/upload.pm"
       },
       "Catmandu::FedoraCommons::Model::validate" : {
-         "file" : "lib/Catmandu/FedoraCommons/Model/validate.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Model/validate.pm"
       },
       "Catmandu::FedoraCommons::Response" : {
-         "file" : "lib/Catmandu/FedoraCommons/Response.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/FedoraCommons/Response.pm"
       },
       "Catmandu::Store::FedoraCommons" : {
-         "file" : "lib/Catmandu/Store/FedoraCommons.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Store/FedoraCommons.pm"
       },
       "Catmandu::Store::FedoraCommons::Bag" : {
-         "file" : "lib/Catmandu/Store/FedoraCommons.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Store/FedoraCommons.pm"
       },
       "Catmandu::Store::FedoraCommons::DC" : {
-         "file" : "lib/Catmandu/Store/FedoraCommons/DC.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Store/FedoraCommons/DC.pm"
       },
       "Catmandu::Store::FedoraCommons::FOXML" : {
-         "file" : "lib/Catmandu/Store/FedoraCommons/FOXML.pm",
-         "version" : 0
+         "file" : "lib/Catmandu/Store/FedoraCommons/FOXML.pm"
       }
    },
    "release_status" : "stable",
@@ -145,5 +121,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.21"
+   "version" : "0.22"
 }
