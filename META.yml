@@ -6,9 +6,9 @@ build_requires:
   Software::License: 0
   Test::More: 0.98
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,7 +17,7 @@ name: Catmandu-FedoraCommons
 provides:
   Catmandu::FedoraCommons:
     file: lib/Catmandu/FedoraCommons.pm
-    version: 0.24
+    version: 0.26
   Catmandu::FedoraCommons::Model::addRelationship:
     file: lib/Catmandu/FedoraCommons/Model/addRelationship.pm
   Catmandu::FedoraCommons::Model::datastreamHistory:
@@ -72,8 +72,9 @@ requires:
   Data::Validate::URI: 0.06
   HTTP::Request::Common: 6.03
   RDF::Trine: 1.003
+  Test::JSON: 0.11
   XML::LibXML: 2.0014
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.24
+version: 0.26

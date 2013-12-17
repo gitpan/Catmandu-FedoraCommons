@@ -60,7 +60,7 @@ package Catmandu::FedoraCommons;
 
 use Catmandu::FedoraCommons::Response;
 
-our $VERSION = '0.24';
+our $VERSION = '0.26';
 use URI::Escape;
 use HTTP::Request::Common qw(GET POST DELETE PUT HEAD);
 use LWP::UserAgent;
@@ -839,16 +839,13 @@ sub getNextPID {
 =head2 getObjectXML(pid => $pid)
 
 This method exports the data model of the object in FOXML format. Required is $pid of the object.
-This method returns a L<Catmandu::FedoraCommons::Response> object with a L<Catmandu::FedoraCommons::Model::export>
-model.
+This method returns a L<Catmandu::FedoraCommons::Response> object .
 
  Example:
  
-   my $res = $fedora->export(pid => 'demo:29');
+   my $res = $fedora->getObjectXML(pid => 'demo:29');
    
    print $res->raw;
-   
-   print "%s\n" , $res->parse_content->{objectProperties}->{label};
    
 =cut
 sub getObjectXML {

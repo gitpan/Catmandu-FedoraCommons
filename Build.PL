@@ -20,10 +20,12 @@ my $build = Module::Build->new(
         'Data::Validate::Type' => '1.4.0',
         'HTTP::Request::Common' => '6.03',
         'RDF::Trine' => '1.003',
+        'Test::JSON' => '0.11',
         'XML::LibXML' => '2.0014',
     },
     create_makefile_pl => 'traditional',
     create_license => 1,
+    script => ['bin/fedora_admin.pl'] ,
 );
 
 $build->create_build_script;
