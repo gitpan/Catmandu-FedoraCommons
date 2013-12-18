@@ -29,6 +29,8 @@ MANIFEST			This list of files
 META.json
 META.yml
 README
+catmandu.yml
+bin/fedora_admin.pl
 t/01_load.t
 t/02_access.t
 t/03_modify.t
